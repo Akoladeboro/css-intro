@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Borogun Akolade">
+    <meta name="description" content="This page contains all about me.">
+    <title>About me</title>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+    <h1>Hi Ma,
+        <br>
+        I'm BOROGUN AKOLADE
+    </h1>
+
+    <p class="myself">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Registered Dental Hygenist. I'm a very cool and friendly
+        guy, fun to be
+        with. The only boy
+        and the third born from a family of four children.lways ready to work and learn. I also make leather footwears
+        of all kinds and desing, I would also love to promote my brand internationally. My brand name is ACOLADE FITS.
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've always been interested in tech, which made me enrol in one of the top
+        tech academy in africa by the name
+        AXIA AFRICA. I wish to be a frontend developer and not that alone but also be able to tutor and mentor the
+        little promising minds out there who also have dreams in the tech world.
+    </p>
+    <figure class="pictures">
+        <div>
+            <img src="/imagehere/resized.jpg" alt="My picture" title="My humble self in a white native wear">
+        </div>
+        <figcaption class="caption">Borogun Akolade Abdulganiy</figcaption>
+    </figure>
+    <figure class="pictures">
+        <div>
+            <img src="/imagehere/slide.jpg" alt="A birkenstock slide" title="Black birkenstock slide">
+        </div>
+        <figcaption class="caption">A birkenstock slide from my brand </figcaption>
+    </figure>
+
+    <article id="Contact">
+        <h2>
+            I'd really like to hear from you.
+        </h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset class="personal">
+                <legend class="Personal">Personal Info</legend>
+                <p>
+                    <label for="FirstName">First Name:</label>
+                    <input type="text" name="FirstName" id="FirstName" placeholder="Dayo" autofocus autocomplete="on"
+                        required>
+                </p>
+                <p>
+                    <label for="LastName">Last Name:</label>
+                    <input type="text" name="LastName" id="LastName" placeholder="Adebayo" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="PhoneNumber">Phone No:</label>
+                    <input type="tel" name="PhoneNumber" id="PhoneNumber" placeholder="3433433434"
+                        pattern="{0-9}{4}{0-9}{3}{0-9}{4}" required>
+                </p>
+                <p>
+                    <label for="Gender">Gender</label>
+                    <input type="text" name="Gender" id="Gender" list="Gender-list">
+                    <datalist id="Gender-list">
+                        <option value="Male"></option>
+                        <option value="Female"></option>
+                    </datalist>
+                </p>
+                <p>
+                    <label for="Email">Email Address:</label>
+                    <input type="text" name="Email" id="Email" placeholder="@gmail.com" autocomplete="on">
+                </p>
+                <p>
+                    <label for="DateOfBirth">Date of Birth:</label>
+                    <input type="text" name="DateOfBirth" id="DateOfBirth" placeholder="dd/mm/yy">
+                </p>
+                <p>
+                    <label for="Password">Password:</label>
+                    <input type="password" name="Password" id="Password" placeholder="your secret">
+                </p>
+                <p>
+                    <label for="decade">Favorite Decade:</label>
+                    <input type="number" name="decade" id="decade" min="1930" max="2022" step="5" value="1970">
+                </p>
+            </fieldset>
+            <fieldset class="favorite">
+                <legend class="Favorite">What is your favorite food</legend>
+                <p>
+                    <input type="radio" name="food" id="Rice" value="Rice">
+                    <label for="Rice">Rice</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="Beans" value="Beans">
+                    <label for="Beans">Beans</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="Yam" value="Yam">
+                    <label for="Yam">Yam</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="Other" value="Other">
+                    <label for="Other">Other</label>
+                </p>
+            </fieldset>
+            <fieldset class="pets">
+                <legend class="Pets">Do you have pets</legend>
+                <p>
+                    <input type="checkbox" name="pets" id="Dog" value="Dog">
+                    <label for="Dog">Dog</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="Cat" value="Cat">
+                    <label for="Cat">Cat</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="Rabbit" value="Rabbit">
+                    <label for="Rabbit">Rabbit</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="OtherPet" value="Other Pet">
+                    <label for="OtherPet">Other Pet</label>
+                </p>
+            </fieldset>
+            <fieldset class="note">
+                <legend class="Note">Send me a note</legend>
+                <p>
+                    <label class="message" for="Message">Your Message</label>
+                    <br>
+                    <textarea class="reply" name="Message" id="Message" cols="30" rows="10"
+                        placeholder="type your message here"></textarea>
+                </p>
+            </fieldset>
+            <br>
+            <button class="submit" type="submit">Submit</button>
+            <button class="post" type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+            <button class="reset" type="reset">Reset</button>
+        </form>
+    </article>
+    <hr>
+    <ul class="links">
+        <li> Contact me at <a href="mailto:akoladeborogun@gmail.com">my email</a></li>
+        <li>Dial <a href="tel:+2348022384369">my phone number</a></li>
+    </ul>
+    <hr>
+
+    &lt;&lt;&lt;&copy;BOROGUN AKOLADE&gt;&gt;&gt;
+    <p><a href="/aboutme.html">BACK TO TOP</a></p>
+
+
+</body>

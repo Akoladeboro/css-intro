@@ -1,0 +1,42 @@
+html {
+    background-color: rgb(249, 198, 131); 
+    border: 2px;
+    border-style: solid rgb(236, 86, 5);
+}
+
+* {
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 40px;
+    background-color: rgb(195, 94, 40);
+}
+
+.myself {
+    background-color: rgb(195, 103, 54);
+}
+
+.pictures {
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    background-color: rgb(227, 159, 75);
+}
+
+.personal, .favorite, .pets, .note {
+    background-color: rgb(227, 159, 75);
+}
+.Personal, .Favorite, .Pets, .Note, .message, .submit, .post, .reset  {
+    background-color: rgb(195, 94, 40);
+}
+
+.caption {
+    background-color: rgb(195, 94, 40);
+}
+
+.reply {
+    font-style: italic;
+}
